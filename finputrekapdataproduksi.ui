@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Finputrekapdataproduksi</class>
+ <widget class="QWidget" name="Finputrekapdataproduksi">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="formLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>40</y>
+     <width>281</width>
+     <height>154</height>
+    </rect>
+   </property>
+   <layout class="QFormLayout" name="formLayout">
+    <item row="0" column="0">
+     <widget class="QLabel" name="namaKomoditiLabel">
+      <property name="text">
+       <string>Nama Komoditi</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QComboBox" name="namaKomoditiComboBox"/>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="jenisKomoditiLabel">
+      <property name="text">
+       <string>Jenis Komoditi</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QComboBox" name="jenisKomoditiComboBox"/>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="satuanLabel">
+      <property name="text">
+       <string>Satuan</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QLineEdit" name="satuanLineEdit"/>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="kuantumLabel">
+      <property name="text">
+       <string>Kuantum</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QLineEdit" name="kuantumLineEdit"/>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLabel" name="hargaLabel">
+      <property name="text">
+       <string>Harga</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1">
+     <widget class="QLineEdit" name="hargaLineEdit"/>
+    </item>
+    <item row="5" column="0">
+     <widget class="QLabel" name="tahunLabel">
+      <property name="text">
+       <string>Tahun</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="1">
+     <widget class="QComboBox" name="tahunComboBox"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="btnSimpanRekapProduksi">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>200</y>
+     <width>80</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Simpan</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

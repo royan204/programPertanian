@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Finputdataproduksi</class>
+ <widget class="QWidget" name="Finputdataproduksi">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>580</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="formLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>241</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <layout class="QFormLayout" name="formLayout">
+    <item row="0" column="0">
+     <widget class="QLabel" name="namaPetugasLabel_2">
+      <property name="text">
+       <string>Nama Petugas</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QComboBox" name="namaPetugasComboBox"/>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="kecamatanLabel">
+      <property name="text">
+       <string>Kecamatan</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QLineEdit" name="kecamatanLineEdit"/>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="luasPanenLabel">
+      <property name="text">
+       <string>Luas Panen</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QLineEdit" name="luasPanenLineEdit"/>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="kodeKomoditiLabel">
+      <property name="text">
+       <string>Kode Komoditi</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QComboBox" name="kodeKomoditiComboBox"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="formLayoutWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>279</x>
+     <y>19</y>
+     <width>241</width>
+     <height>128</height>
+    </rect>
+   </property>
+   <layout class="QFormLayout" name="formLayout_2">
+    <item row="0" column="0">
+     <widget class="QLabel" name="produksiLabel">
+      <property name="text">
+       <string>Produksi</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLineEdit" name="produksiLineEdit"/>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="rataRataLabel">
+      <property name="text">
+       <string>Rata Rata</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QLineEdit" name="rataRataLineEdit"/>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="jumlahProduksiLabel">
+      <property name="text">
+       <string>Jumlah Produksi</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QLineEdit" name="jumlahProduksiLineEdit"/>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="jenisKomoditiLabel">
+      <property name="text">
+       <string>Jenis Komoditi</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QComboBox" name="jenisKomoditiComboBox"/>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLabel" name="tahunLabel">
+      <property name="text">
+       <string>Tahun</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1">
+     <widget class="QLineEdit" name="tahunLineEdit"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="btnSimpanDataProduksi">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>160</y>
+     <width>101</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Simpan</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
